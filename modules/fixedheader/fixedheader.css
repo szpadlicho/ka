@@ -1,0 +1,56 @@
+/**
+ * PrestaShop module created by VEKIA, a guy from official PrestaShop community ;-)
+ *
+ * @author    VEKIA https://www.prestashop.com/forums/user/132608-vekia/
+ * @copyright 2010-2017 VEKIA
+ * @license   This program is not free software and you can't resell and redistribute it. Fact that you downloaded it for free does not mean that you can copy and redistribute it. You can just use it for free in your shop "as is" without removing the 'MyPresta' branding and advertises
+ *
+ * CONTACT WITH DEVELOPER http://mypresta.eu
+ * support@mypresta.eu
+ */
+
+
+.header_omg_im_scrolled #header .nav {
+    position:fixed;
+    top:0px;
+    width:100%;
+    z-index:99999999;
+}
+
+.omg_img_scrolled {
+    width:100%!important;
+    position:fixed;
+    background:#FFF;
+    display:block;
+    z-index:9999999;
+    left: 0px;
+    max-width:none!important;
+    padding:0px 0px!important;
+    margin-top:0px;
+}
+
+.omg_img_scrolled .row #header_logo{
+    padding:0px!important;
+}
+
+.omg_img_scrolled .row #search_block_top{
+    padding:25px 0px!important;
+}
+
+.omg_img_scrolled .row .shopping_cart{
+    padding:25px 0px!important;
+    margin-right:-15px;
+}
+
+.omg_img_scrolled  {
+    box-shadow: 0px -5px 20px #000;
+}
+
+.omg_img_scrolled #block_top_menu {
+    display:none!important;
+}
+
+.omg_img_scrolled .row {
+    max-width: 1170px;
+    margin:auto;
+}

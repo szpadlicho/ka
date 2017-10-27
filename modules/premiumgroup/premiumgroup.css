@@ -1,0 +1,29 @@
+@media screen and (max-device-width: 400px) {
+    .fb-social{
+        position: fixed;
+        /*display:none;*/
+    }
+}
+@media screen and (min-device-width: 400px) {
+    .fb-social{
+        position: fixed;
+    }
+}
+
+.fb-social{
+    /*position: fixed;*/
+    transition: left .5s ease-in-out, right .5s ease-in-out;
+    z-index: 21000;
+    cursor: pointer;
+    /*top: 70px;*/
+    /*left: -272px;*/
+}
+.fb-social:hover{
+    /*left: 0;*/
+}
+.fb-lable{
+    /*float: right;*/
+}
+.fb-content{
+    /*float: right;*/
+}

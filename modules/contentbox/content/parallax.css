@@ -1,0 +1,50 @@
+.pat,
+.bgnd {
+    background-attachment: fixed;
+	background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    #height: 54vh;
+	max-height: 1200px;
+	min-height: 50vh;
+}
+.bgnd {
+    #height: 50vh;
+}
+.bgnd-0 {
+    background-image: url(../../../data/bg/bg1.jpg);
+}
+.bgnd-1 {
+    background-image: url(../../../data/bg/02.jpg);
+}
+
+.bgnd-2 {
+    background-image: url(../../../data/bg/01.jpg);
+}
+
+.bgnd-3 {
+    background-image: url(../../../data/bg/04.jpg);
+}
+
+.bgnd-4 {
+    background-image: url(../../../data/bg/03.jpg);
+}
+
+.pat{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    #background: transparent url(../../../data/bg/pattern.png) repeat top left;
+}
+/* .bgnd::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-image: url(../../../data/bg/mask.png);
+    background-color: rgba(0, 0, 0, .49);
+} */

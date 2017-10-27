@@ -1,0 +1,43 @@
+https://www.prestashop.com/forums/topic/385557-adding-homeslider-to-top-of-cms-pages/
+http://quirktools.com/screenfly/#u=http%3A//10.10.0.100/htdocs/kancelaria&w=360&h=640&a=39
+
+ESPP - ELEKTRONICZNY SYSTEM POMOCY PRAWNEJ
+    Jednostki samorządu terytorialnego i ich podmioty
+    Osoby prawne
+    Osoby fizyczne
+
+#slider na cms troche zanisko + guziki
+#menu ograniczyc zeby nie bylo na procentach
+#robots block
+#basket rozwijanie up
+#menu nie dziala na telefonach
+#no image
+#blog premium to config:IP1
+#glowna musi byc zle
+#picure post chceck
+#adminstrator premium przy instalacji wlaciwej (setting add constance id)
+#description category off
+#usunac mozliwosc kupowania wiecej niz jedea sztuke produktu
+#menu top znika
+#kzyzyki na telfonach
+
+#kategorie kolejnosc sub kategorie -> w ustawieniach
+#cena netto -> karta towaru wybrac podatek
+
+optymalizacja grafiki (grafiki sa trzy :P moge zignorowac)
+check co refresh zle (mozna zrobic ze co logowanie po id uzytkownika albo kiedy dany uzytkownik odswiezy strone)
+
+COFIGURACJA PODCZAS INSTALACJI
+indeks meta tytuły seo url
+powiadomienia o zamowieniu +
+mail alert itp...
+htaccess zobaczyc
+robots.txt 
+regulamin dodac preferencje->zamowienia->Strona CMS z Warunkami użytkowania
+
+slider
+https://www.evohosting.co.uk/blog/web-development/prestashop/40-premium-free-prestashop-themes-2017/
+http://preview.themeforest.net/item/panda-responsive-prestashop-theme/full_screen_preview/9750650
+Panda - Responsive Prestashop Theme
+https://www.jojothemes.com/2016/09/panda-responsive-prestashop-theme.html
+boguslaw1234

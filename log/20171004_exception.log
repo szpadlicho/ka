@@ -1,0 +1,1 @@
+*ERROR* 	2017/10/04 - 11:50:38: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'deoc'@'10.254.34.23' (using password: YES) at line 102 in file classes/db/DbPDO.php

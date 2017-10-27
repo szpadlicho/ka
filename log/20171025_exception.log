@@ -1,0 +1,12 @@
+*ERROR* 	2017/10/25 - 14:49:55: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 7<br /><br /><pre>
+            SELECT *, sbc.`id_smart_blog_category` AS `id_category`, sbcl.`name`  FROM `ka_smart_blog_category` sbc 
+                INNER JOIN `ka_smart_blog_category_lang` sbcl 
+                    ON(sbc.`id_smart_blog_category` = sbcl.`id_smart_blog_category` AND sbcl.`id_lang` = 1)
+                                 
+                    WHERE 1 
+                     
+                    AND sbc.id_parent = </pre> at line 791 in file classes/db/Db.php
+*ERROR* 	2017/10/25 - 15:28:35: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'root'@'10.254.34.50' (using password: NO) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2017/10/25 - 15:31:12: Duplicate entry '5-1' for key 'PRIMARY'<br /><br /><pre>INSERT INTO `ka_smart_blog_post_lang` (`id_smart_blog_post`, `meta_title`, `meta_keyword`, `meta_description`, `short_description`, `content`, `link_rewrite`, `id_lang`) VALUES ('5', 'dfs', '', '', 'asdasd', '<p>asdasd</p>', 'dfs', '1')</pre> at line 791 in file classes/db/Db.php
+*ERROR* 	2017/10/25 - 15:31:32: Duplicate entry '6-1' for key 'PRIMARY'<br /><br /><pre>INSERT INTO `ka_smart_blog_post_lang` (`id_smart_blog_post`, `meta_title`, `meta_keyword`, `meta_description`, `short_description`, `content`, `link_rewrite`, `id_lang`) VALUES ('6', 'dfss', '', '', 'asdasd', '<p>asdasd</p>', 'dfss', '1')</pre> at line 791 in file classes/db/Db.php
+*ERROR* 	2017/10/25 - 15:31:44: Duplicate entry '7-1' for key 'PRIMARY'<br /><br /><pre>INSERT INTO `ka_smart_blog_post_lang` (`id_smart_blog_post`, `meta_title`, `meta_keyword`, `meta_description`, `short_description`, `content`, `link_rewrite`, `id_lang`) VALUES ('7', 'dfss', '', '', 'asdasd', '<p>asdasd</p>', 'dfss', '1')</pre> at line 791 in file classes/db/Db.php
